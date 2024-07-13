@@ -46,9 +46,9 @@ function App() {
         return {
             show: false,
             title:
-                "Post archive in addition to main posts"
+                `Post archive in addition to ${posts.length} main posts`
         }
-    }, []);
+    }, [posts.length]);
 
     return (
         <section>
